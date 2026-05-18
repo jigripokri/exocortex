@@ -1,0 +1,88 @@
+# Health
+
+Loaded only when a health question arises. Not surfaced in casual briefings.
+
+> **Sensitivity warning:** This file may contain bloodwork, diagnoses, medications, mental health notes. Like `finances.md`, it should never leave your machine. `.gitignore` excludes `memory/` by default.
+
+> **How to populate:** Fill in what you actually track. Skip what you don't. If you have a Fitbit / Whoop / Oura / Apple Watch connection, the exocortex can pull baseline metrics automatically — you only need to add context the wearable doesn't capture.
+
+---
+
+## Baseline
+
+- **Age**: {{N}}
+- **Height / weight**: {{...}}
+- **Blood type**: {{type}}
+- **Allergies**: {{list, including medication allergies}}
+- **Medications**: {{name + dose, or "none"}}
+- **Last physical**: {{date}}
+- **Primary care provider**: {{name + contact}}
+
+---
+
+## Active concerns
+
+Things you're currently managing. Move to "Resolved" once done.
+
+### {{Concern name}}
+
+- **What it is**: {{2-line description}}
+- **Started**: {{date}}
+- **Current treatment**: {{...}}
+- **Next checkpoint**: {{date}}
+- **Doctor**: {{name}}
+
+---
+
+## Bloodwork baseline
+
+Last full panel: {{date}}
+
+| Marker | Result | Reference range | Notes |
+|--------|--------|-----------------|-------|
+| {{marker}} | {{value}} | {{range}} | {{trend / concern flag}} |
+
+---
+
+## Fitness routine
+
+- **Cardio**: {{type, frequency}}
+- **Strength**: {{type, frequency}}
+- **Mobility / flexibility**: {{type, frequency}}
+- **Sleep target**: {{hours}}
+- **Active goal**: {{what you're training for, or "maintain"}}
+
+---
+
+## Vaccines
+
+| Vaccine | Date | Next due |
+|---------|------|----------|
+| {{flu / COVID / Hep B / etc.}} | {{date}} | {{date or "complete"}} |
+
+---
+
+## Doctors & specialists
+
+| Specialty | Name | Last visit | Notes |
+|-----------|------|------------|-------|
+| Primary care | {{name}} | {{date}} | |
+| Dentist | {{name}} | {{date}} | |
+| {{Specialty}} | {{name}} | {{date}} | |
+
+---
+
+## Family health context
+
+Patterns to watch in your own health based on family history:
+
+- {{e.g. "Maternal side: heart disease — monitor lipid panel annually"}}
+- {{e.g. "Paternal side: type 2 diabetes — monitor A1C annually"}}
+
+---
+
+## Open health decisions
+
+| Decision | Status | Notes |
+|----------|--------|-------|
+| {{e.g. "Get the Hep B vaccine series"}} | `PENDING` | {{when, where, why deferred}} |

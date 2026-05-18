@@ -1,0 +1,76 @@
+# Life
+
+Goals, priorities, the horizon. Refreshed during weekly review.
+
+> **How to populate:** Write what's actually true right now, not aspirational. If you'd be embarrassed to say it out loud, but it's true, write it anyway. The exocortex needs the real version, not the LinkedIn version.
+
+---
+
+## North Star (3-year view)
+
+{{One paragraph. Where are you headed? What does "winning" look like in 2029? Be specific. Don't say "be happy" — say "have shipped the second product, kid is thriving in school, parents settled in same city."}}
+
+---
+
+## This Year (annual themes)
+
+Pick 3–5 themes for the year. Themes are different from goals — they're directions, not destinations.
+
+- **{{Theme 1}}** — e.g. "deepen, not broaden" — fewer new commitments, more depth in existing ones
+- **{{Theme 2}}** — e.g. "build the side project to revenue"
+- **{{Theme 3}}** — e.g. "be physically stronger at year-end than year-start"
+
+---
+
+## This Quarter (Q{{N}} {{YEAR}})
+
+The 3–5 specific outcomes you're driving this quarter. Should be measurable.
+
+| Goal | Status | Notes |
+|------|--------|-------|
+| {{Specific outcome}} | `ON TRACK` / `AT RISK` / `BLOCKED` / `DONE` | {{What's actually happening}} |
+
+---
+
+## This Month
+
+Tactical priorities. What's actually on the calendar.
+
+- {{Top 3–5 things that need to happen this month}}
+
+---
+
+## Patterns
+
+Things you've noticed about yourself that you want the exocortex to remember and surface when relevant.
+
+- {{Pattern: "I get reactive when I haven't worked out in 3+ days"}}
+- {{Pattern: "I procrastinate on the thing I most want to do — the wanting is what stalls it"}}
+- {{Pattern: "Most of my best ideas come during long walks, not at the desk"}}
+
+---
+
+## Active decisions
+
+Decisions you're currently chewing on. Move to a separate file (or into insights.md) once resolved.
+
+### {{Decision name}}
+
+- **The question**: {{specific tradeoff}}
+- **Options**: {{enumerated}}
+- **Last thought**: {{most recent take, with date}}
+- **Deadline**: {{when this needs to be decided, or "no deadline"}}
+
+---
+
+## Calendar of recurring things
+
+Annual events the exocortex should surface a week in advance:
+
+- {{Date}} — {{Event}} ({{notes}})
+
+<!-- Example (delete before saving):
+- Mar 30 — Niece's birthday (always send flowers + a video message)
+- Jun 21 — Parents' anniversary (call BOTH separately the day before)
+- Dec 15 — End-of-year financial review (block 4 hours)
+-->

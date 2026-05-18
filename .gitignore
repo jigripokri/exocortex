@@ -1,7 +1,10 @@
 # CRITICAL: Memory files are personal and must never be committed.
-# This is the single most important rule in this repo.
-memory/
+# The .template files ARE committed — they're the public scaffold.
+# Real memory files (without .template) are excluded.
+memory/*
 !memory/*.template
+!memory/private/
+memory/private/*
 !memory/private/*.template
 
 # OS detritus

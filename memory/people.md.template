@@ -1,0 +1,52 @@
+# People
+
+Relationship context. Who matters, what's open with them, what's coming up.
+
+> **How to populate:** Start with the 15–20 people you interact with most. For each, capture: relationship, where they live, last contact, open thread, anything coming up. Update during weekly review. Apply the 3-week rule — if someone hasn't surfaced in 3 weeks, archive them (you can always re-add later).
+
+---
+
+## Tier 1 — Inner circle
+
+### {{PERSON_NAME}}
+
+- **Relationship**: {{spouse | parent | sibling | child | best-friend}}
+- **Location**: {{city}}
+- **Channel**: {{WhatsApp | SMS | email | iMessage}}
+- **Last contact**: {{date — what was discussed}}
+- **Open thread**: {{something unresolved or coming up}}
+- **Notes**: {{anything the exocortex should know — health concerns, big events, sensitivities}}
+
+<!-- Example (delete before saving):
+### Mom
+- **Relationship**: parent
+- **Location**: split between two cities, currently in <city>
+- **Channel**: WhatsApp (both numbers — phone +XX and second SIM +YY)
+- **Last contact**: <date> — discussed her eye appointment, she's nervous
+- **Open thread**: schedule follow-up call after appointment results come back
+- **Notes**: 70+, prefers video calls in the morning her time. Always thank her for the food package.
+-->
+
+---
+
+## Tier 2 — Close orbit
+
+### {{PERSON_NAME}}
+
+(Same template.)
+
+---
+
+## Tier 3 — Wider network
+
+People you talk to regularly but who aren't in your daily life. Keep entries shorter.
+
+- **{{Name}}** — {{one-line context, last contact, open thread if any}}
+
+---
+
+## Archive
+
+People who used to be active but aren't right now. Don't delete — they may cycle back. Keep one-line entries:
+
+- **{{Name}}** — {{relationship, why archived, last active date}}

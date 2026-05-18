@@ -1,0 +1,47 @@
+# Insights
+
+Non-obvious patterns. Strategic truths. Wildcards. Things worth re-reading in a year.
+
+> **What goes here:** lenses, not action items. Insights that, if you forgot them, would cost you something subtle but important. The exocortex adds to this file whenever something genuinely non-obvious surfaces during briefings or conversations. You should add to it too — whenever you have one of those "huh, that's interesting" moments, write it down.
+
+> **What does NOT go here:** todos, reminders, things you might do this week. Those go in `commitments.md` or `life.md`. Insights are the *meta* layer.
+
+> **3-year test:** if you wouldn't still find this useful in 3 years, don't put it here.
+
+---
+
+## How to add an insight
+
+```
+### {{Short, memorable name for the insight}}
+
+{{2–4 sentences. What's the pattern? What's the counterintuitive part? What would the obvious-but-wrong view be?}}
+
+— {{date added}}
+```
+
+---
+
+## Insights
+
+<!-- Example (delete before saving):
+
+### The 30% rule
+
+When you find yourself spending 30%+ of mental cycles on a decision over a week, that's the signal it's actually the most important thing right now — even if you've been telling yourself it's a distraction. Honor the obsession.
+
+— 2026-01-12
+
+### Parents call sister, not me, when something's wrong
+
+Pattern observed over 3 years: when there's a real problem, they route through her first. This isn't because I'm not trusted — it's because they want to consult before deciding what to tell me. So when she calls unprompted, it's almost always relaying something. Treat her unprompted calls as high-priority.
+
+— 2026-02-08
+
+### Money decisions feel scarier than they are; relationship decisions feel safer than they are
+
+The reverse-asymmetry of life: I deliberate for weeks on a $20K decision that won't matter in 5 years, and snap-decide on a relationship moment that compounds for decades. Recalibrate.
+
+— 2026-03-15
+
+-->

@@ -1,0 +1,51 @@
+# Commitments
+
+Every promise made, every promise owed. The exocortex's most-touched file.
+
+> **How it works:** Three sections — what you said you'd do, what others said they'd do, and what's done. Items move through statuses: `PENDING` → `CALENDAR NEEDED` → `IN PROGRESS` → `DONE`. The morning briefing surfaces anything stuck for too long.
+
+---
+
+## I Said I Would
+
+Promises you made. Status, what, who, when committed.
+
+| Status | What | To whom | Committed | Due | Notes |
+|--------|------|---------|-----------|-----|-------|
+| `PENDING` | {{thing you said you'd do}} | {{person}} | {{date}} | {{date or "TBD"}} | {{context}} |
+| `CALENDAR NEEDED` | {{social plan needing event}} | {{person}} | {{date}} | {{date/time agreed}} | {{venue, prep, etc.}} |
+
+<!-- Example (delete before saving):
+| `CALENDAR NEEDED` | Coffee at <cafe> | <Friend name> | 2026-05-10 | Sat 2026-05-17 10am | They suggested 10am, confirmed via WhatsApp
+-->
+
+---
+
+## They Said They Would
+
+Promises others made to you. Same format. Useful for nudging.
+
+| Status | What | From whom | They committed | Expected | Notes |
+|--------|------|-----------|----------------|----------|-------|
+| `WAITING` | {{thing they said they'd do}} | {{person}} | {{date}} | {{date}} | {{context}} |
+
+---
+
+## Done
+
+Recently completed. Auto-archived after 4 weeks during weekly review.
+
+| Completed | What | Acknowledged via |
+|-----------|------|------------------|
+| {{date}} | {{thing}} | {{mailto link / digital trace / inferred}} |
+
+---
+
+## Status Definitions
+
+- `PENDING` — Promise made, no further action taken yet.
+- `CALENDAR NEEDED` — Promise involves a date/time and should become a calendar event. Picked up by the daily commitment-to-calendar sweep.
+- `IN PROGRESS` — Work has started.
+- `WAITING` — On someone else (used in "They Said They Would" section).
+- `DONE` — Completed. Acknowledged via mailto link, digital trace (sent message, calendar event), or self-report.
+- `OVERDUE` — Past expected date with no status change. Surfaced loudly in morning briefings.

@@ -1,0 +1,43 @@
+# Carry-On — STRICTLY PRIVATE
+
+> **🚨 This file is gated.** It is never read automatically. It is never referenced in any draft, email, calendar event, or briefing. It is never mentioned unprompted. It is only loaded when you explicitly invoke it (e.g., "open carry-on", "check carry-on context").
+>
+> **Nothing from this file ever appears in outbound communication, including in drafts you might later send.** The exocortex treats this content as ambient context only — to inform its understanding of you, never to be quoted.
+
+---
+
+## What to put here
+
+The things you genuinely need an operator to know, but absolutely cannot leak. Examples (not exhaustive):
+
+- Sensitive family dynamics (someone's affair, an estrangement, an addiction)
+- Mental health context you'd prefer not to mention to anyone
+- Legal matters in progress
+- Things you've promised to someone in confidence
+- Half-formed thoughts you don't want surfaced until you've sat with them
+
+---
+
+## How to invoke it
+
+- *"Open carry-on context, then help me think through {{X}}"* — loads this file for the current conversation only
+- *"Update carry-on with the following: {{...}}"* — writes to this file, but does not surface elsewhere
+
+---
+
+## Safety rails to verify
+
+When forking, confirm that:
+
+1. `CLAUDE.md` mentions `carry-on.md` in the strictly-gated section ✅
+2. All briefing prompts in `briefings/` explicitly EXCLUDE this file from Step 1 (memory load) ✅
+3. The `/draft` skill explicitly refuses to reference content from this file ✅
+4. `.gitignore` excludes `memory/private/` ✅
+
+If any of these are broken, fix them before populating this file with real content.
+
+---
+
+## Your private context
+
+<!-- Add real content here only after verifying the safety rails above. Leave this section empty in the public template. -->

@@ -1,0 +1,118 @@
+# Finances
+
+Loaded only when a financial question arises. Not surfaced in casual briefings.
+
+> **Sensitivity warning:** This file may end up containing your net worth, account balances, holdings, and tax situation. The `.gitignore` for this repo excludes the `memory/` directory by default — keep it that way. If you fork publicly, double-check before you push.
+
+> **How to populate:** Fill in the sections that apply to you. Skip the rest. The monthly financial sweep briefing reads this to compute deltas.
+
+---
+
+## Snapshot
+
+- **As of**: {{date}}
+- **Net worth**: {{$ amount or range}}
+- **Liquid**: {{$ amount}}
+- **Illiquid (real estate, private investments, retirement)**: {{$ amount}}
+- **Debt**: {{$ amount}}
+- **Monthly burn**: {{$ amount}}
+- **Savings rate**: {{%}}
+- **FIRE target**: {{$ amount}} at age {{N}} (year {{YYYY}}) — currently {{%}} there
+
+---
+
+## Income
+
+| Source | Amount (annual) | Notes |
+|--------|----------------|-------|
+| {{Primary salary / business income}} | {{$}} | {{vesting, RSU schedule, etc.}} |
+| {{Rental / passive}} | {{$}} | {{property notes}} |
+| {{Other}} | {{$}} | |
+
+---
+
+## Accounts
+
+> Track the structure, not the live balance. Balance changes daily; the structure rarely changes.
+
+| Account | Type | Institution | Purpose |
+|---------|------|-------------|---------|
+| {{name}} | {{checking / savings / brokerage / 401k / IRA}} | {{bank}} | {{daily spend / emergency / retirement / etc.}} |
+
+---
+
+## Investments
+
+### Public
+
+- **Index funds**: {{% of portfolio, which ones}}
+- **Individual stocks**: {{thesis-level, not ticker-level — the latter changes too fast}}
+- **Bonds / cash**: {{%}}
+
+### Private / Alternative
+
+| Investment | Amount | Date | Status |
+|------------|--------|------|--------|
+| {{name}} | {{$}} | {{date}} | {{active / exited / write-down}} |
+
+### Real estate
+
+| Property | Type | Equity | Mortgage | Monthly cash flow |
+|----------|------|--------|----------|-------------------|
+| {{address or label}} | {{primary / rental / vacation}} | {{$}} | {{$ + rate + term}} | {{$}} |
+
+---
+
+## Taxes
+
+- **Filing status**: {{married filing jointly / single / etc.}}
+- **State**: {{state}}
+- **CPA**: {{name + contact, or "self-filed"}}
+- **Estimated quarterly payments**: {{if applicable}}
+- **Open issues**: {{anything outstanding with IRS / state / CPA}}
+
+---
+
+## Insurance
+
+| Type | Provider | Coverage | Renewal |
+|------|----------|----------|---------|
+| Health | {{provider}} | {{plan}} | {{date}} |
+| Life | {{provider}} | {{$ coverage}} | {{date}} |
+| Disability | {{provider}} | {{$ coverage}} | {{date}} |
+| Auto | {{provider}} | {{coverage}} | {{date}} |
+| Home/Renters | {{provider}} | {{coverage}} | {{date}} |
+| Umbrella | {{provider}} | {{$ coverage}} | {{date}} |
+
+---
+
+## Credit cards (active strategy)
+
+| Card | Issuer | Best use | Annual fee | Renewal |
+|------|--------|----------|------------|---------|
+| {{name}} | {{issuer}} | {{e.g. "3% groceries, 5% rotating"}} | {{$}} | {{date}} |
+
+---
+
+## Open financial decisions
+
+Things you're chewing on. Move out when resolved.
+
+### {{Decision name}}
+
+- **Question**: {{the specific tradeoff}}
+- **Options**: {{enumerated}}
+- **Current lean**: {{which way and why}}
+- **Deadline**: {{when}}
+
+---
+
+## FIRE math
+
+If you're tracking financial independence, capture the model:
+
+- **Target spending in retirement**: {{$ annual}}
+- **Safe withdrawal rate**: {{%}}
+- **Implied target portfolio**: {{$}}
+- **Years to target at current trajectory**: {{N}}
+- **Sensitivity**: {{what would change the timeline most — savings rate? market returns? a property sale?}}
