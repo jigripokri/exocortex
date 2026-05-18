@@ -2,8 +2,6 @@
 
 **An AI chief of staff that reads your stuff, remembers what matters, and runs your life in the background. Forks in 30 minutes. Costs ~$20/mo to run.**
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/jigripokri/exocortex/generate)
-
 In 1998, transhumanists coined *exocortex* to describe a hypothetical information-processing system that behaves as if it were part of your brain — extending memory, attention, and judgment outside your skull. For 25 years it was a thought experiment. Then Claude shipped agents that could read your messages, hold persistent context, and act on a schedule. Now it's a weekend project.
 
 This repo is the scaffold. Clone it, fill in seven memory files with the texture of your actual life, point Claude at it, and you have an always-on operator who runs a daily briefing, tracks every promise you've made, and tells you what to do next — with one-tap "I did this" links so the loop closes even when you go offline.
