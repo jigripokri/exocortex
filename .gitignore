@@ -1,0 +1,44 @@
+# CRITICAL: Memory files are personal and must never be committed.
+# This is the single most important rule in this repo.
+memory/
+!memory/*.template
+!memory/private/*.template
+
+# OS detritus
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python (if you add scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Node (if you add tooling)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Local config
+.env
+.env.local
+config.local.json
+.claude/
+
+# Logs
+*.log
+logs/
+
+# Output / scratch
+scratch/
+tmp/
+*.bak
