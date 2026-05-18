@@ -1,6 +1,6 @@
 # Exocortex
 
-**An AI chief of staff that reads your stuff, remembers what matters, and runs your life in the background. Forks in 30 minutes. Costs ~$20/mo to run.**
+**An AI chief of staff that reads your stuff, remembers what matters, and runs your life in the background. Forks in 30 minutes. Runs on your existing Claude subscription.**
 
 In 1998, transhumanists coined *exocortex* to describe a hypothetical information-processing system that behaves as if it were part of your brain — extending memory, attention, and judgment outside your skull. For 25 years it was a thought experiment. Then Claude shipped agents that could read your messages, hold persistent context, and act on a schedule. Now it's a weekend project.
 
